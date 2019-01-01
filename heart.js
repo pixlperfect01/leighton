@@ -17,6 +17,9 @@ function heart(x, y, hu){
   }
 
   this.disp = function(){
+    colorMode(HSB);
+    stroke(this.hu, 255, 255);
+    strokeWeight(2);
     for(var i=0;i<5;i++){
       if(this.tm===i){
         point(this.x, this.y);
@@ -56,7 +59,7 @@ function heart(x, y, hu){
       }
       if(this.tm===i+20){
         
-        
+      }
     }
   }
 }
