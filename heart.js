@@ -111,48 +111,46 @@ function heart(x, y, hu){
         point(this.x+3, this.y-6);
       }
       if(this.tm===i+inc*6){
-        /*
-        point(this.x , this.y );
-        point(this.x , this.y );
-        point(this.x , this.y );
-        point(this.x , this.y );
-        point(this.x , this.y );
-        point(this.x , this.y );
-        point(this.x , this.y );
-        point(this.x , this.y );
-        point(this.x , this.y );
-        point(this.x , this.y );
-        point(this.x , this.y );
-        point(this.x , this.y );
-        point(this.x , this.y );
-        point(this.x , this.y );
-        point(this.x , this.y );
-        point(this.x , this.y );
-        point(this.x , this.y );
-        point(this.x , this.y );
-        point(this.x , this.y );
-        point(this.x , this.y );
-        point(this.x , this.y );
-        point(this.x , this.y );
-        point(this.x , this.y );
-        point(this.x , this.y );
-        point(this.x , this.y );
-        point(this.x , this.y );
-        point(this.x , this.y );
-        point(this.x , this.y );
-        point(this.x , this.y );
-        point(this.x , this.y );
-        point(this.x , this.y );
-        point(this.x , this.y );
-        point(this.x , this.y );
-        point(this.x , this.y );
-        point(this.x , this.y );
-        point(this.x , this.y );
-        point(this.x , this.y );
-        point(this.x , this.y );
-        point(this.x , this.y );
-        point(this.x , this.y );
-        */
+        point(this.x, this.y+7);
+        point(this.x-1, this.y+6);
+        point(this.x+1, this.y+6);
+        point(this.x-2, this.y+5);
+        point(this.x+2, this.y+5);
+        point(this.x-3, this.y+4);
+        point(this.x+3, this.y+4);
+        point(this.x-4, this.y+3);
+        point(this.x+4, this.y+3);
+        point(this.x-4, this.y+2);
+        point(this.x+4, this.y+2);
+        point(this.x-5, this.y+1);
+        point(this.x+5, this.y+1);
+        point(this.x-6, this.y);
+        point(this.x+6, this.y);
+        point(this.x-6, this.y-1);
+        point(this.x+6, this.y-1);
+        point(this.x-7, this.y-2);
+        point(this.x+7, this.y-2);
+        point(this.x-7, this.y-3);
+        point(this.x+7, this.y-3);
+        point(this.x-7, this.y-4);
+        point(this.x+7, this.y-4);
+        point(this.x-6, this.y-5);
+        point(this.x, this.y-5);
+        point(this.x+6, this.y-5);
+        point(this.x-6, this.y-6);
+        point(this.x-1, this.y-6);
+        point(this.x+1, this.y-6);
+        point(this.x+6, this.y-6);
+        point(this.x-5, this.y-7);
+        point(this.x-1, this.y-7);
+        point(this.x+1, this.y-7);
+        point(this.x+5, this.y-7);
+        point(this.x-4, this.y-8);
+        point(this.x-3, this.y-8);
+        point(this.x-2, this.y-8);
+        point(this.x+2, this.y-8);
+        point(this.x+3, this.y-8);
+        point(this.x+4, this.y-8);
       }
     }
   }
