@@ -5,7 +5,7 @@ function Firework() {
   this.particles = [];
 
   this.done = function() {
-    if (this.exploded && this.particles.length === 0) {
+    if (this.exploded) {
       return true;
     } else {
       return false;
