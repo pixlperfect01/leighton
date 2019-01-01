@@ -1,5 +1,5 @@
 function Firework() {
-  this.hu = createVector(0, 100, 100);
+  this.hu = random(255);
   this.firework = new Particle(random(width), height, this.hu, true);
   this.exploded = false;
   this.particles = [];
