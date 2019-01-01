@@ -34,19 +34,13 @@ function Firework() {
   }
 
   this.explode = function() {
-    for (var i = 0; i < 100; i++) {
-      var p = new Particle(this.firework.pos.x, this.firework.pos.y, this.hu, false, i);
-      this.particles.push(p);
-    }
+    hearts.length++;
+    hearts[hearts.length-1]=new heart(this.firework.pos.x, this.firework.pos.y, hu);
   }
 
   this.show = function() {
     if (!this.exploded) {
       this.firework.show();
-    }
-    
-    for (var i = 0; i < this.particles.length; i++) {
-      this.particles[i].show();
     }
   }
 }
