@@ -20,7 +20,7 @@ function heart(x, y, hu){
     colorMode(HSB);
     stroke(this.hu, 255, 255);
     strokeWeight(2);
-    var inc=5;
+    var inc=4;
     for(var i=0;i<inc;i++){
       if(this.tm===i){
         point(this.x, this.y);
