@@ -20,16 +20,17 @@ function heart(x, y, hu){
     colorMode(HSB);
     stroke(this.hu, 255, 255);
     strokeWeight(2);
-    for(var i=0;i<5;i++){
+    var inc=5;
+    for(var i=0;i<inc;i++){
       if(this.tm===i){
         point(this.x, this.y);
       }
-      if(this.tm===i+5){
+      if(this.tm===i+inc){
         point(this.x, this.y);
         point(this.x-1, this.y-1);
         point(this.x+1, this.y-1);
       }
-      if(this.tm===i+10){
+      if(this.tm===i+inc*2){
         point(this.x, this.y+1);
         point(this.x-1, this.y);
         point(this.x+1, this.y);
@@ -41,7 +42,7 @@ function heart(x, y, hu){
         point(this.x-1, this.y-2);
         point(this.x+1, this.y-2);
       }
-      if(this.tm===i+15){
+      if(this.tm===i+inc*3){
         point(this.x, this.y+3);
         point(this.x-1, this.y+2);
         point(this.x+1, this.y+2);
@@ -57,7 +58,7 @@ function heart(x, y, hu){
         point(this.x-1, this.y-3);
         point(this.x+1, this.y-3);
       }
-      if(this.tm===i+20){
+      if(this.tm===i+inc*4){
         point(this.x, this.y+4);
         point(this.x-1, this.y+3);
         point(this.x+1, this.y+3);
@@ -79,7 +80,7 @@ function heart(x, y, hu){
         point(this.x+1, this.y-4);
         point(this.x+2, this.y-4);
       }
-      if(this.tm===i+25){
+      if(this.tm===i+inc*5){
         point(this.x, this.y+5);
         point(this.x-1, this.y+4);
         point(this.x+1, this.y+4);
