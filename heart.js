@@ -30,7 +30,22 @@ function heart(x, y, hu){
         point(this.x-1, this.y-2);
         point(this.x+1, this.y-2);
       }
-      
+      if(this.tm===i+15){
+        point(this.x, this.y+3);
+        point(this.x-1, this.y+2);
+        point(this.x+1, this.y+2);
+        point(this.x-2, this.y+1);
+        point(this.x+2, this.y+1);
+        point(this.x-2, this.y);
+        point(this.x+2, this.y);
+        point(this.x-3, this.y-1);
+        point(this.x+3, this.y-1);
+        point(this.x-2, this.y-2);
+        point(this.x+2, this.y-2);
+        point(this.x, this.y-2);
+        point(this.x-1, this.y-3);
+        point(this.x+1, this.y-3);
+      }
     }
   }
 }
