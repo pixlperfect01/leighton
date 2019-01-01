@@ -8,6 +8,14 @@ function heart(x, y, hu){
     this.tm++;
   }
   
+  this.done = function() {
+    if (this.tm>50) {
+      return true;
+    } else {
+      return false;
+    }
+  }
+
   this.disp = function(){
     for(var i=0;i<5;i++){
       if(this.tm===i){
@@ -46,6 +54,9 @@ function heart(x, y, hu){
         point(this.x-1, this.y-3);
         point(this.x+1, this.y-3);
       }
+      if(this.tm===i+20){
+        
+        
     }
   }
 }
