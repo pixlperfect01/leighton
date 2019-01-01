@@ -1,4 +1,5 @@
 var fireworks = [];
+var hearts=[];
 var gravity;
 
 function setup() {
@@ -17,7 +18,14 @@ function draw() {
   if (random(1) < 0.03) {
     fireworks.push(new Firework());
   }
-  
+  for(var i=0;i<hearts.length;i++){
+    hearts[i].update();
+    hearts[i].disp();
+    
+    if(hearts[i].done()){
+      hearts.splice(i, 1);
+    }
+  }
   for (var i = fireworks.length - 1; i >= 0; i--) {
     fireworks[i].update();
     fireworks[i].show();
