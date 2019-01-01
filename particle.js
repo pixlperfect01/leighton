@@ -40,10 +40,10 @@ function Particle(x, y, hu, firework) {
     
     if (!this.firework) {
       strokeWeight(2);
-      stroke(hu, 255, 255, this.lifespan);
+      stroke(0, 100, 100, this.lifespan);
     } else {
       strokeWeight(4);
-      stroke(hu, 255, 255);
+      stroke(0, 100, 100);
     }
     
     point(this.pos.x, this.pos.y);
