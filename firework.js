@@ -35,7 +35,7 @@ function Firework() {
 
   this.explode = function() {
     hearts.length++;
-    hearts[hearts.length-1]=new heart(this.firework.pos.x, this.firework.pos.y, hu);
+    hearts[hearts.length-1]=new heart(this.firework.pos.x, this.firework.pos.y, this.hu);
   }
 
   this.show = function() {
