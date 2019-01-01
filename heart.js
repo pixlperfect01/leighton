@@ -110,6 +110,48 @@ function heart(x, y, hu){
         point(this.x+2, this.y-6);
         point(this.x+3, this.y-6);
       }
+      if(this.tm===i+inc*6){
+        point(this.x , this.y );
+        point(this.x , this.y );
+        point(this.x , this.y );
+        point(this.x , this.y );
+        point(this.x , this.y );
+        point(this.x , this.y );
+        point(this.x , this.y );
+        point(this.x , this.y );
+        point(this.x , this.y );
+        point(this.x , this.y );
+        point(this.x , this.y );
+        point(this.x , this.y );
+        point(this.x , this.y );
+        point(this.x , this.y );
+        point(this.x , this.y );
+        point(this.x , this.y );
+        point(this.x , this.y );
+        point(this.x , this.y );
+        point(this.x , this.y );
+        point(this.x , this.y );
+        point(this.x , this.y );
+        point(this.x , this.y );
+        point(this.x , this.y );
+        point(this.x , this.y );
+        point(this.x , this.y );
+        point(this.x , this.y );
+        point(this.x , this.y );
+        point(this.x , this.y );
+        point(this.x , this.y );
+        point(this.x , this.y );
+        point(this.x , this.y );
+        point(this.x , this.y );
+        point(this.x , this.y );
+        point(this.x , this.y );
+        point(this.x , this.y );
+        point(this.x , this.y );
+        point(this.x , this.y );
+        point(this.x , this.y );
+        point(this.x , this.y );
+        point(this.x , this.y );
+      }
     }
   }
 }
